@@ -1,16 +1,11 @@
-# install-vscode
+# repo for storing software install scripts
 simple script to install vscode 
  first download the file to the local system by using these commands
  
- From `https://raw.githubusercontent.com/reaper6947/install-vscode/main/install-vscode.sh`:
+ From `https://raw.githubusercontent.com/reaper6947/installScript/main/script.sh`:
 ```shell
-curl -fsSL https://raw.githubusercontent.com/reaper6947/install-vscode/main/install-vscode.sh -o install-vscode.sh
-chmod +x install-vscode.sh
-sh install-vscode.sh
+curl -fsSL https://raw.githubusercontent.com/reaper6947/installScript/main/script.sh -o script.sh
+chmod +x script.sh
+sh script.sh
 ```
-now install the required extentions for using ros and docker (not necessary if you only want to install vscode and nothing else)
 
-```shell
-code --install-extension ms-iot.vscode-ros
-code --install-extension ms-azuretools.vscode-docker
-```
